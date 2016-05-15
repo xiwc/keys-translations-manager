@@ -3,7 +3,7 @@ import configUtil from '../configUtil'
 
 export function addTranslation(params) {
 	return dispatch => {
-		return fetch(configUtil.getHost() + '/api/translation', {
+		return fetch('' + '/api/translation', {
 			headers: {
 				'Accept': 'application/json; charset=utf-8',
 				'Content-Type': 'application/json; charset=utf-8'
@@ -35,7 +35,7 @@ export function addTranslation(params) {
 
 export function loadTranslations() {
 	return dispatch => {
-		return fetch(configUtil.getHost() + '/api/translation')
+		return fetch('' + '/api/translation')
 			.then(res => {
 				if (res.status >= 400) {
 					throw new Error(res.status + ", " + res.statusText);
@@ -53,7 +53,7 @@ export function loadTranslations() {
 
 export function removeTranslation(id) {
 	return dispatch => {
-		return fetch(configUtil.getHost() + '/api/translation/' + id, {
+		return fetch('' + '/api/translation/' + id, {
 					method: 'DELETE'
 				})
 				.then(res => {
@@ -73,7 +73,7 @@ export function removeTranslation(id) {
 
 export function updateTranslation(params) {
 	return dispatch => {
-		return fetch(configUtil.getHost() + '/api/translation/' + params._id, {
+		return fetch('' + '/api/translation/' + params._id, {
 			headers: {
 				'Accept': 'application/json; charset=utf-8',
 				'Content-Type': 'application/json; charset=utf-8'

@@ -30,7 +30,7 @@ export default class OutputPanel extends React.Component {
 	}
 
 	download(project) {
-		let url = configUtil.getHost() + "/api/download/"
+		let url = '' + "/api/download/"
 
 		if (this.state.fileType === 'jf') {
 			url += "f/";

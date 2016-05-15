@@ -45,6 +45,14 @@ export default class DropdownMenu extends React.Component {
 							}}>
 							<i className="fa fa-language fa-fw"/> 繁體中文 (zh-TW)
 						</a></li>
+						<li><a href="#" onClick={(event) => {
+								if (event) {
+									event.preventDefault();
+								}
+								this.loadMessages("zh-CN");
+							}}>
+							<i className="fa fa-language fa-fw"/> 简体中文 (zh-CN)
+						</a></li>
 					</ul>
 				</li>
 			</ul>

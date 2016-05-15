@@ -11,7 +11,7 @@ import SideBar from '../components/layout/SideBar'
 import OutputPanel from '../components/output/OutputPanel'
 import EditModal from '../components/input/EditModal'
 import config from '../../ktm.config'
-const languages = ["en-US", "zh-TW"]
+const languages = ["en-US", "zh-TW", 'zh-CN']
 
 export default class App extends React.Component {
 	static propTypes = {

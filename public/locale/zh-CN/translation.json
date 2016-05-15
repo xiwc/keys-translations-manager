@@ -1,0 +1,39 @@
+{
+  "ui": {
+    "common": {
+      "action": "动作",
+      "add": "新增",
+      "applyto": "套用至",
+      "cancel": "取消",
+      "delete": "删除",
+      "desc": "描述",
+      "download": "下载",
+      "edit": "编辑",
+      "language": "语言",
+      "locale": "语系",
+      "locales": "语系",
+      "update": "更新"
+    },
+    "confirm": {
+      "delete": "您确定要删除 \"{0}\" 吗?",
+      "header": "确认",
+      "no": "否",
+      "yes": "是"
+    },
+    "err": {
+      "belongsTo": "【JSON::ParserError】\"{0}\" 与 {1}* 在 {2} 冲突",
+      "contains": "【JSON::ParserError】\"{0}\" 与 \"{1}\" 在 {2} 冲突",
+      "emptyfield": "以下栏位为必填: {0}",
+      "equals": "\"{0}\" 已经存在于以下专案: {1}"
+    },
+    "grid": {
+      "edit": "(双击存储格可进行编辑)",
+      "empty": "无资料",
+      "search": "关键字搜寻"
+    },
+    "json": {
+      "format": "格式化",
+      "mini": "最小化"
+    }
+  }
+}
